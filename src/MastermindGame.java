@@ -24,7 +24,6 @@ public class MastermindGame {
         printConstructions();
         getPlayerName();
         hiddenPegs = generateHiddenPegs();
-        System.out.println(hiddenPegs);
         int count = 0;
         while (isPlaying) {
             String guess = player.makeGuess();
